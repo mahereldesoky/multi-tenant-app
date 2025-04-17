@@ -105,31 +105,6 @@ POST /api/jobs
 Header: Authorization: Bearer {token}
 
 
-### Folder Structure Overview
-
-app/
-├── Events/
-│   └── JobCreated.php
-├── Helpers/
-│   └── Helper.php
-├── Jobs/
-│   └── SyncJobToElasticJob.php
-├── Listeners/
-│   └── SyncJobToElasticAfterResponse.php
-├── Services/
-│   ├── ElasticsearchService.php
-│   ├── JobPostingService.php
-│   ├── LoginTenantService.php
-│   └── RegisterTenantService.php
-├── Http/
-│   ├── Controllers/
-│   │   ├── Api/
-│   │   │   └── JobController.php
-│   │   └── Auth/
-│   │       ├── LoginController.php
-│   │       └── RegisterController.php
-│   └── Middleware/
-│       └── IdentifyTenant.php
 
 ### Notes
 
