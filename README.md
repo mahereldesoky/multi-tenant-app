@@ -56,7 +56,7 @@ This project demonstrates a Laravel API-only backend that integrates:
 
 ### Step 1: Clone the repository
 ```bash
-git clone https://github.com/mahereldesoky/laravel-elasticsearch-task.git
+git clone https://github.com/mahereldesoky/multi-tenant-app.git
 cd laravel-elasticsearch-task
 
 ```
